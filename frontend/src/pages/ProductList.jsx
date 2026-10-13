@@ -11,7 +11,7 @@ function ProductList() {
     
 
     useEffect(()=>{
-        fetch(`${BASE_URL}/api/products`)
+        fetch(`${BASE_URL}/api/products/`)
         .then((response)=>{
             if(!response.ok){
                 throw new Error("Failed to fetch products")
