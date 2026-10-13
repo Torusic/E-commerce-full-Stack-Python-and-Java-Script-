@@ -164,7 +164,7 @@ CORS_ALLOWED_ORIGINS = [
     origin.strip()
     for origin in os.getenv(
         "CORS_ALLOWED_ORIGINS",
-        "https://e-commerce-full-stack-python-and-java-script-5ii9kknk3.vercel.app"
+        "https://e-commerce-full-stack-python-and-ja.vercel.app",
     ).split(",")
     if origin.strip()
 ]
